@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Forte</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4fdf4;
+      color:#333;
+    }
+
+    header{
+      background:#2e7d32;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#1b5e20;
+      padding:10px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    section{
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    .card{
+      background:white;
+      max-width:900px;
+      margin:auto;
+      padding:25px;
+      border-radius:10px;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2{
+      color:#2e7d32;
+      margin-bottom:15px;
+    }
+
+    footer{
+      background:#2e7d32;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+
+    button{
+      background:#43a047;
+      color:white;
+      border:none;
+      padding:12px 20px;
+      border-radius:5px;
+      cursor:pointer;
+      margin-top:15px;
+    }
+
+    button:hover{
+      background:#2e7d32;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌱 Agro Forte, Futuro Sustentável</h1>
+    <p>Equilíbrio entre produção e meio ambiente</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Sustentabilidade</a>
+    <a href="#">Dados</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <section>
+    <div class="card">
+      <h2>Sobre o Projeto</h2>
+
+      <p>
+        Este site promove práticas agrícolas sustentáveis,
+        incentivando o uso consciente dos recursos naturais,
+        preservação ambiental e inovação no agronegócio.
+      </p>
+
+      <button onclick="mensagem()">
+        Saiba Mais
+      </button>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Objetivos</h2>
+
+      <p>🌾 Melhorar a produção agrícola</p>
+      <p>💧 Reduzir desperdícios</p>
+      <p>🌍 Preservar o meio ambiente</p>
+      <p>📊 Apresentar dados sustentáveis</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Agro Forte - Projeto Sustentável</p>
+  </footer>
+
+  <script>
+    function mensagem(){
+      alert("Produzir hoje preservando o amanhã!");
+    }
+  </script>
+
+</body>
+</html>
